@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>drrubenippoliti</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="pagina_rectoria.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="anime.min.js"></script>
+<script src="polymorph.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var shapePath = document.querySelector('#MorphingIcon1-shape');
+   var paths = ["M0 12 L7 0 L7 3 L59 3 L59 20 L7 20 L7 23Z "];
+   var interpolator = [];
+   interpolator[0] = polymorph.interpolate([paths[0], paths[0]]);
+   let progress = { prop: 0 };
+   var pathIndex = 0;
+   anime({
+      targets: progress,
+      prop: 1,
+      delay: 0,
+      duration: 2000,
+      easing: 'linear',
+      loop: true,
+      direction: 'normal',
+      update(anim) 
+      {
+         shapePath.setAttribute('d', interpolator[pathIndex](progress.prop));
+         if (anim.progress == 100)
+         {
+            pathIndex++;
+            if (pathIndex > 0)
+               pathIndex = 0;
+         }
+      }
+   });
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var shapePath = document.querySelector('#MorphingIcon2-shape');
+   var paths = ["M14 0 L29 4 L25 4 L25 30 L4 30 L3 4 L0 4Z "];
+   var interpolator = [];
+   interpolator[0] = polymorph.interpolate([paths[0], paths[0]]);
+   let progress = { prop: 0 };
+   var pathIndex = 0;
+   anime({
+      targets: progress,
+      prop: 1,
+      delay: 0,
+      duration: 2000,
+      easing: 'linear',
+      loop: true,
+      direction: 'normal',
+      update(anim) 
+      {
+         shapePath.setAttribute('d', interpolator[pathIndex](progress.prop));
+         if (anim.progress == 100)
+         {
+            pathIndex++;
+            if (pathIndex > 0)
+               pathIndex = 0;
+         }
+      }
+   });
+});
+</script>
+<script src="wwb18.min.js"></script>
+</head>
+<body>
+<a href="#" onclick="ShowObjectWithEffect('Banner1', 1, 'fade', 500);return false;"><img src="images/img0001.png" id="Banner1" alt="Dr. Rubén Ippoliti - candidato a Rector IES 9009 - 2024" style="border-width:0;position:absolute;left:3px;top:13px;width:810px;height:111px;z-index:0;" width="810" height="111"></a>
+<div id="wb_Image1" style="position:absolute;left:306px;top:103px;width:78px;height:126px;z-index:1;">
+<img src="images/yo en bodega.png" id="Image1" alt="" width="108" height="174"></div>
+<div id="wb_Text2" style="position:absolute;left:54px;top:126px;width:132px;height:30px;z-index:2;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong><em><a href="https://drive.google.com/file/d/1BcFAwsaC_tIsSQOEsrkq2AKxwX7b9hch/view?usp=sharing">Proyecto Rectoría Dr. Rubén Ippoliti</a></em></strong></span></div>
+<div id="wb_Text1" style="position:absolute;left:410px;top:139px;width:362px;height:1326px;z-index:3;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><strong><em>Querida comunidad del IES 9-009 Tupungato. <br><br>Quería contarles que he decidido postularme como rector de nuestro querido Instituto. <br><br>Quiero compartirles que los años pasados han sido sumamente dificultosos para mí. Primero porque he tenido que suplir a Anabel, a quien admiro y respeto en el alma. El proyecto había sido acompañarla en la vicerrectoría, jamás imaginé no poder estar con Ella en el equipo. Casi al mismo tiempo vino esa eterna pandemia de casi dos años de duración donde tuvimos que reinventarnos y sostener la educación superior y conseguir que muchos, muchísimos estudiantes pudieran cumplir sus metas de egresar. <br><br>Como siempre lo hice agradecí profundamente el trabajo de cada docente, de cada administrativo/a que dieron todo de sí para que los estudiantes pudieran cumplir sus sueños de recibirse y tener una profesión. <br><br>Tuvimos innumerables cambios, nuestra querida secretaria Patri Sosa y su asistente incondicional Viviana, como Patri Bellido, en títulos tuvieron su merecida jubilación y en el transcurso de dos meses nos quedamos sin el equipo de secretaría y títulos. Pero continuamos adelante, lo mismo sucedió con los preceptores del turno noche de sede central: Raúl y Zulma. Tuvimos la dicha de conocer un ángel, como fue Florcita, quién fue a vivir su vida celestial demasiado pronto y nos dejó un vacío muy importante en la preceptoría. También han venido personas maravillosas que poco a poco van generando nuevos estilos de trabajo y acompañamiento. <br><br>En este tiempo también se jubilaron coordinadores de carrera como Hugo Villanueva y otros cargos de coordinación fueron supliéndose con apoyos técnicos pedagógicos. Cada unidad académica se fue sosteniendo y nuestra querida unidad académica de Luján se transformó en una carrera a distancia que con el convenio con el Ministerio de Economía está dando frutos increíbles. <br><br>Otras dos situaciones nos sucedieron. En primer lugar, tuvimos las titularizaciones y acrecentamiento en el nivel secundario y, con justa razón, muchos docentes prefirieron incrementar horas en este nivel que le da más estabilidad y así perdimos una buena cantidad de docentes en algunos espacios. En segundo lugar, el precario sueldo docente hizo que otros profesionales dejaran horas porque no les convenía viajar hasta Tupungato. <br><br>Como digo en la conclusión de mi proyecto de trabajo para rectoría: <br><br>“A pesar de todo, siempre y en todo momento hemos seguido formando equipos que trabajasen en beneficio del Instituto. Evaluando el período que culmina podemos afirmar que hemos podido realizar muchísimas cosas a pesar de tantas dificultades enumeradas, pero sabemos que mucho nos queda por hacer, puesto que nos ha tocado transitar una época de cambios profundos en lo social y, especialmente, en la educación superior, que recién estamos vislumbrando y que debemos profundizar y continuar. <br><br>Por eso, he decidido presentarme en este cargo, con un nuevo equipo, no ya supliendo a otra rectora, sino generando un proyecto que tenga una impronta enraizada en los numerosos años que he dedicado a la docencia. Esperando poder ser parte de otro excelente equipo de trabajo, esta vez como Rector, y profundizar aquello que silenciosa pero efectivamente vamos haciendo día a día con una comunidad educativa que ha llevado la educación superior al Tupungato Profundo, allí donde el ejercicio y la garantía de los derechos educativos son una tarea que el Estado ha desarrollado ininterrumpidamente por 40 años.<br><br>La gestión humanizada y humanizante, el respeto a la Ley, la garantía del derecho a la educación, el sostenimiento de las carreras, la perspectiva fundante de los derechos humanos y la evaluación permanente de todos los procesos formativos son los ejes principales que sustentan este proyecto y mi lineamiento de trabajo para la tarea que postulo”. <br></em></strong></span></div>
+<div id="wb_Icon1" style="position:absolute;left:4px;top:126px;width:50px;height:31px;text-align:center;z-index:4;">
+<div id="Icon1"><i class="fa fa-home"></i></div></div>
+<div id="wb_MorphingIcon1" style="position:absolute;left:185px;top:130px;width:59px;height:23px;z-index:5;">
+<svg id="MorphingIcon1" height="100%" width="100%" style="position:absolute;height:100%;width:100%;left:0;top:0;overflow:visible;" viewBox="0 0 59 23" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="MorphingIcon1-shape" d="M0 12 L7 0 L7 3 L59 3 L59 20 L7 20 L7 23Z " vector-effect="non-scaling-stroke" />
+</defs>
+<use xlink:href="#MorphingIcon1-shape" data-href="#MorphingIcon1-shape" style="fill:#FFA500;stroke:#0963AD;stroke-width:1"/>
+</svg>
+</div>
+<div id="wb_Text3" style="position:absolute;left:53px;top:181px;width:203px;height:925px;z-index:6;">
+<span style="color:#000000;font-family:Arial;font-size:15px;"><strong>Hola, me presento. </strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br><br>En mi vida profesional soy <em>Profesor, Licenciado y Doctor en Filosofía. </em><br><br>He dado clases desde que me recibí y he sido docente en numerosos colegios tanto de la provincia como fuera de esta. También he sido docente universitario y, actualmente, soy Vicerrector electo, Rector Suplente( y Profesor del Instituto de Educación Superior 9-009 Tupungato. <br><br>Dirijo un grupo de investigación sobre las características del &quot;Tupungato Profundo&quot; para poder encontrar el ser de aquello que llamamos &quot;Tupungato&quot;. Soy un enamorado de esta tierra y su gente. <br><br>He escrito varios libros: El último se llama Evolución Emocional (2018). Anteriormente escribí: (2004) Santo Tomás de Aquino y Paul Ricoeur en diálogo. La imaginación y la afectividad humana. ¿Es posible una filosofía, desde, por y en los afectos?, San Rafael. (2006) Controversias en torno al realismo crítico en el siglo XX, Universidad Católica de Cuyo, San Juan. (2012) La maravillosa experiencia de filosofar con niños. Cómo llevar adelante un proyecto de filosofía. Madrid, Editorial Académica Española.<br><br>Puedes comunicarte conmigo a través de las redes sociales y blog: <br><br>Facebook: <a href="https://www.facebook.com/rubenalberto.ippoliti">https://www.facebook.com/rubenalberto.ippoliti</a><br><br>Instagram: <a href="https://www.instagram.com/rubenalbertoippoliti/?hl=es-la">https://www.instagram.com/rubenalbertoippoliti/?hl=es-la</a><br><br>Twitter: @ruben_ippoliti <br><br>Blog: <a href="https://evolucionemocion.blogspot.com">https://evolucionemocion.blogspot.com</a>/ <br><br></span></div>
+<div id="wb_Text4" style="position:absolute;left:320px;top:267px;width:51px;height:16px;z-index:7;">
+<span style="color:#000000;font-family:Arial;font-size:15px;"><strong><a href="https://drive.google.com/file/d/1JtK7pH1B916gWLaTbRc77KdfI7qbIFmF/view?usp=sharing">MI CV</a></strong></span></div>
+<div id="wb_Icon2" style="position:absolute;left:329px;top:238px;width:32px;height:29px;text-align:center;z-index:8;">
+<div id="Icon2"><i class="fa fa-home"></i></div></div>
+<div id="wb_MorphingIcon2" style="position:absolute;left:331px;top:294px;width:29px;height:30px;z-index:9;">
+<svg id="MorphingIcon2" height="100%" width="100%" style="position:absolute;height:100%;width:100%;left:0;top:0;overflow:visible;" viewBox="0 0 29 30" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+   <path id="MorphingIcon2-shape" d="M14 0 L29 4 L25 4 L25 30 L4 30 L3 4 L0 4Z " vector-effect="non-scaling-stroke" />
+</defs>
+<use xlink:href="#MorphingIcon2-shape" data-href="#MorphingIcon2-shape" style="fill:#FFFF00;stroke:#0963AD;stroke-width:1"/>
+</svg>
+</div>
+<div id="wb_Text5" style="position:absolute;left:435px;top:84px;width:239px;height:19px;z-index:10;">
+<span style="background-color:#FF0000;color:#FFFFFF;font-family:'Comic Sans MS';font-size:13px;"><strong><em>&quot;EL EQUIPO SOMOS TODOS/AS&quot;</em></strong></span></div>
+<div id="wb_Text6" style="position:absolute;left:313px;top:340px;width:71px;height:30px;z-index:11;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><a href="./propuestas.html">Algunas<br>Propuestas</a></span></div>
+</body>
+</html>
